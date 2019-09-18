@@ -1,0 +1,22 @@
+#
+# JDBC connection properties
+#
+jdbc.driver=
+jdbc.url=
+jdbc.user=
+jdbc.password=
+
+#
+# Connection pool properties
+#
+connection.pool.initialPoolSize=5
+connection.pool.minPoolSize=5
+connection.pool.maxPoolSize=20
+connection.pool.maxIdleTime=3000
+
+#
+# Hibernate properties
+#
+hibernate.dialect=
+hibernate.show_sql=true
+hibernate.packagesToScan=com.learning.simplecrm.entity
